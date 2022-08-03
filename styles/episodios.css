@@ -1,0 +1,37 @@
+article h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+table {
+    max-width: 800px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    text-align: center;
+    padding: 2%;
+}
+
+@media (max-width: 550px) {
+    table tr th, td {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 400px) {
+    table tr th, td {
+        font-size: .6rem;
+    }
+}
+
+/* @media (max-width: 350px) {
+    table tr th, td {
+        font-size: .5rem;
+    }
+} */

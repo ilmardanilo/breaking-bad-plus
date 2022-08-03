@@ -1,0 +1,48 @@
+body {
+    box-shadow: 3px 3px 10px;
+    background-color: #000B03;
+    margin: auto;
+}
+
+main {
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 1000px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 20px;
+    margin: 20px;
+}
+
+img {
+    align-items: center;
+    max-width: 100%;
+}
+
+aside ul {
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #000B03;
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: .5px;
+    text-align: center;
+    padding: 20px;
+    -webkit-box-shadow: 0px -5px 21px -1px rgba(0,0,0,0.31); 
+    box-shadow: 0px -5px 21px -1px rgba(0,0,0,0.31);
+}

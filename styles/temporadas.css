@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    align-items: center;
+}
+
+main ul {
+    padding: 20px;
+}
+
+main ul li{
+    padding: 5px;
+}
+
+main ul li a{
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+main ul li a:hover{
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+article h2 {
+    padding: 40px 0px 0px 20px;
+    margin: 0;
+}
+
+.trailer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trailer iframe {
+    width: 100%;
+    max-width: 560px;
+}
+
+.ir-temporada {
+    text-align: center;
+}
+
+.btt-temp {
+    color: #000B03;
+    transition: all .3s;
+}
+
+.btt-temp:hover {
+    letter-spacing: 1px;
+}
